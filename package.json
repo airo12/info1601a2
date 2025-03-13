@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "npx --yes serve -p 8080",
-    "test": "mocha || exit 0",
+    "test": "npx mocha || exit 0",
     "update": "npm install --save testsuite2@latest"
   },
   "keywords": [],
